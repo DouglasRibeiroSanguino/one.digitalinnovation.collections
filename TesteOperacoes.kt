@@ -7,8 +7,8 @@ fun main() {
         println(salario)
     }
 
-    println("O maior salário de hoje é " + salarios.max())
-    println("O menor salário de hohe é " + salarios.min())
+    println("O maior salário de hoje é " + salarios.maxOrNull())    // Não usar operacoes depreciadas = max
+    println("O menor salário de hohe é " + salarios.minOrNull())
     println("A média de salários é de: " + salarios.average())
 
     println("")
